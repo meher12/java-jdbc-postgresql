@@ -9,8 +9,8 @@ import java.sql.SQLException;
 public class JDBCPostgreSQLConnection {
 	
 	    private final static String url = "jdbc:postgresql://localhost/springbank";
-	    private final static String user = "postgres";
-	    private final static String password = "AdminP@ssw0rd";
+	    private final static String user = "user";
+	    private final static String password = "0rd";
 
 	    private static final String QUERY = "select * from bank_account where id =?";
 	    private static final String SELECT_ALL_QUERY = "select * from bank_account";
